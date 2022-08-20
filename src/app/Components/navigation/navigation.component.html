@@ -1,27 +1,38 @@
-<nav class='nav-paf'>
-    <ul class='navigation-menu'>
+
+
+
+<nav ngClass='nav-paf'>
+    <ul ngClass='navigation-menu'>
+
+        <li>
+            <a (click)="setACtiveNav('#')" href="#home" ngClass={{ActiveNav}}>
+                <mat-icon>home</mat-icon>
+            </a>
+        </li>
+        <li>
+
+            <a (click)="setACtiveNav('#about')" href="#about" ngClass={{ActiveNavAbout}}>
+                <mat-icon> person_pin_circle</mat-icon>
+            </a>
+        </li>
+        <li>
+
+            <a (click)="setACtiveNav('#experience')" href="#experience" ngClass={{ActiveNavExperience}}>
+                <mat-icon>school</mat-icon>
+            </a>
+        </li>
 
         <li>
 
+            <a (click)="setACtiveNav('#portfolio')" href="#portfolio" ngClass={{ActiveNavPortfolio}}>
+                <mat-icon> beenhere</mat-icon>
+            </a>
+        </li>
+        <li>
 
-            <a (click)="setACtiveNav('#')" href="#home" ngClass={{ActiveNav}}>home </a>
-        </li>
-        <li>
-   
-            <a (click)="setACtiveNav('#about')" href="#about" ngClass={{ActiveNavAbout}}>About</a>
-        </li>
-        <li>
-   
-            <a (click)="setACtiveNav('#experience')" href="#experience" ngClass={{ActiveNavExperience}}>Exp</a>
-        </li>
-
-        <li>
-     
-            <a (click)="setACtiveNav('#portfolio')" href="#portfolio" ngClass={{ActiveNavPortfolio}}>Portfolio</a>
-        </li>
-        <li>
-  
-            <a (click)="setACtiveNav('#contact')" href="#contact" ngClass={{ActiveNavContact}}>Contact me</a>
+            <a (click)="setACtiveNav('#contact')" href="#contact" ngClass={{ActiveNavContact}}>
+                <mat-icon> call</mat-icon>
+            </a>
         </li>
 
     </ul>
