@@ -1,0 +1,115 @@
+.about-me-root-element h3 {
+    text-align: center;
+
+}
+
+.about-me-root-element p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.about-me-elements {
+    justify-content: center;
+    display: flex;
+}
+
+.about-me-elements div {
+    margin: 20px;
+}
+
+.about-me-experience-frame {
+    display: flex;
+}
+
+.about-me-experience-frame div {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    margin-top: 60px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+}
+
+
+.about-icons-class {
+    font-size: 25px;
+    margin: 0%;
+}
+
+.github-link-icon {
+    color: black;
+    margin: 0;
+}
+
+
+.details-info1-icon{
+    padding-top: 15px;
+
+}
+
+.details-info1{
+    margin-top: 50px;
+}
+
+.details-info1:hover {
+    padding-top: 10px;
+    background-color: #008CBA;
+    color: white;
+}
+
+.details-info2:hover {
+    padding-top: 10px;
+    background-color: #008CBA;
+    color: white;
+}
+
+.about-me-root-element {
+    background-color: whitesmoke;
+    margin-top: 150px;
+ 
+    padding: 40px;
+}
+
+.text-paragrph-about-me {
+    display: flex;
+    justify-content: center;
+}
+
+.lets-talk-button {
+    display: flex;
+    justify-content: center;
+}
+
+.img-frame{
+    width: 300px;
+    height: 300px;
+}
+
+.home-screen-buttons {
+    margin-top: 20px;
+}
+
+.home-screen-buttons a {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.home-screen-buttons a:hover {
+    background-color: #008CBA;
+    color: white;
+}
