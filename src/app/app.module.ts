@@ -11,7 +11,8 @@ import { NavigationComponent } from './Components/navigation/navigation.componen
 import { PorfolioComponent } from './Components/porfolio/porfolio.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import {MatIconModule} from '@angular/material/icon'
+import {MatIconModule} from '@angular/material/icon';
+import { ContactFormComponent } from './Components/contact-me/contact-form/contact-form/contact-form.component'
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import {MatIconModule} from '@angular/material/icon'
     ExperienceComponent,
     NavigationComponent,
     PorfolioComponent,
+    ContactFormComponent,
     
   ],
   imports: [
