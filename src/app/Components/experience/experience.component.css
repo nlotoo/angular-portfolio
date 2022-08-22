@@ -1,0 +1,80 @@
+* {
+
+    list-style: none;
+}
+
+.experience-root-element h2 p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.experience-root-element h2 {
+    text-align: center;
+}
+
+.experience-root-element {
+    padding: 40px;
+
+}
+
+.experience-skill-frame {
+    display: flex;
+    justify-content: center;
+
+    /* border: 1px solid red; */
+}
+
+.experience-skill-frame h5 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.front-end-skills {
+    background-color: whitesmoke;
+    margin: 20px;
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 3px 10px -1px #000000;
+    box-shadow: 5px 3px 10px -1px #000000;
+    
+    /* border: 1px solid green; */
+
+}
+
+.back-end-skills {
+    background-color: whitesmoke;
+    margin: 20px;
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 3px 10px -1px #000000;
+    box-shadow: 5px 3px 10px -1px #000000;
+
+    /* border: 1px solid salmon; */
+}
+
+.front-end-skills div {
+    display: flex;
+}
+
+.back-end-skills div {
+    display: flex;
+}
+
+.front-end-skills ul {
+    margin-top: 20px;
+}
+
+.front-end-skills h5 {
+    font-weight: bold;
+}
+
+.back-end-skills h5 {
+    font-weight: bold;
+}
+
+.li-icon-class {
+    color: #008CBA;
+    font-size: 30px;
+}
