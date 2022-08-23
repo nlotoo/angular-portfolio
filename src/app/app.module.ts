@@ -14,6 +14,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
 import { ContactFormComponent } from './Components/contact-me/contact-form/contact-form/contact-form.component'
 
+import { IconModule } from '@ant-design/icons-angular';
+
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,9 +35,12 @@ import { ContactFormComponent } from './Components/contact-me/contact-form/conta
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
+
+    IconModule,
+    FontAwesomeModule
     
   ],
-  providers: [],
+  providers: [AppComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

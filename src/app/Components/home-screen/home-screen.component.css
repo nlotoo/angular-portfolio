@@ -59,8 +59,13 @@
     left: 5%;
 }
 
+.home-screen-social-media-icon img{
+ width: 30px;
+ height: 30px;
+}
+
 .home-screen-social-media-icon div {
-    height: 36px;
+    height: 50px;
 
 }
 
