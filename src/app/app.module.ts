@@ -16,6 +16,8 @@ import { ContactFormComponent } from './Components/contact-me/contact-form/conta
 
 import { IconModule } from '@ant-design/icons-angular';
 
+import { NzIconModule } from 'ng-zorro-antd/icon';
+
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
@@ -37,7 +39,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     MatIconModule,
 
     IconModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    NzIconModule,
     
   ],
   providers: [AppComponent],
