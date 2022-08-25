@@ -1,15 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 * {
 
     list-style: none;
 }
 
-.experience-root-element h2 p {
+.experience-root-element h3 p {
     margin: 0;
-    font-size: 15px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
 }
 
-.experience-root-element h2 {
+.experience-root-element h3 {
+
     text-align: center;
+    font-size: xx-large;
+    font-style: italic;
 }
 
 .experience-root-element {
@@ -67,11 +74,20 @@
 }
 
 .front-end-skills h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
     font-weight: bold;
+    font-size: larger;
+    /* font-weight: bold; */
 }
 
 .back-end-skills h5 {
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
     font-weight: bold;
+    font-size: larger;
+    /* font-weight: bold; */
 }
 
 .li-icon-class {

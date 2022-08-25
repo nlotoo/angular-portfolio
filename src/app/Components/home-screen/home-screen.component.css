@@ -1,6 +1,7 @@
 
- @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 
 
@@ -17,7 +18,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-    margin: 4px 2px;
+    margin: 6px 7px;
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 5px;
@@ -30,13 +31,15 @@
 }
 
 .heading-txt {
-    font-weight: bold;
-    font-family: 'Playfair Display', serif;
     cursor: pointer;
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
-.my-name {
+.my-role {
     cursor: pointer;
+    font-size: larger;
 }
 
 .homeScreen-root-element {
@@ -59,9 +62,9 @@
     left: 5%;
 }
 
-.home-screen-social-media-icon img{
- width: 30px;
- height: 30px;
+.home-screen-social-media-icon img {
+    width: 30px;
+    height: 30px;
 }
 
 .home-screen-social-media-icon div {
@@ -80,4 +83,4 @@
     position: absolute;
     right: 5%;
     transform: rotate(90deg);
-} 
+}

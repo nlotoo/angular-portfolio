@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 .about-me-root-element h3 {
     text-align: center;
+    font-size: xx-large;
+    font-style: italic;
 
 }
 
 .about-me-root-element p {
     margin: 0;
     font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
 }
 
 .about-me-elements {
@@ -46,12 +52,12 @@
 }
 
 
-.details-info1-icon{
+.details-info1-icon {
     padding-top: 15px;
 
 }
 
-.details-info1{
+.details-info1 {
     margin-top: 50px;
 }
 
@@ -70,7 +76,7 @@
 .about-me-root-element {
     background-color: whitesmoke;
     margin-top: 150px;
- 
+
     padding: 40px;
 }
 
@@ -84,7 +90,7 @@
     justify-content: center;
 }
 
-.img-frame{
+.img-frame {
     width: 300px;
     height: 300px;
 }

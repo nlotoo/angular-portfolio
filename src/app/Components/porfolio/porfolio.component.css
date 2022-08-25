@@ -5,14 +5,18 @@
     padding-bottom: 40px;
 }
 
-.portfolio-root-element h2 {
+.portfolio-root-element h3 {
     padding-top: 40px;
     text-align: center;
+    font-size: xx-large;
+    font-style: italic;
 }
 
-.portfolio-root-element h2 p {
+.portfolio-root-element h3 p {
     margin: 0;
-    font-size: 15px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
 }
 
 .portfolio-image-element {
@@ -20,8 +24,7 @@
     width: 150px;
 }
 
-.project-element p {
-}
+.project-element p {}
 
 
 .project-element {
