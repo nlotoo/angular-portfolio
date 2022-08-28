@@ -20,6 +20,10 @@ import { NzIconModule } from 'ng-zorro-antd/icon';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
+import {MatButtonModule } from '@angular/material/button';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {MatTabsModule} from '@angular/material/tabs';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,6 +45,11 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     IconModule,
     FontAwesomeModule,
     NzIconModule,
+
+    MatButtonModule,
+    MatButtonToggleModule,
+    MatTabsModule,
+    
     
   ],
   providers: [AppComponent],

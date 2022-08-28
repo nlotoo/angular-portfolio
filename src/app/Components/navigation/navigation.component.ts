@@ -1,4 +1,4 @@
-import { Component, OnInit, OnChanges } from '@angular/core';
+import { Component, OnInit, OnChanges, SimpleChanges } from '@angular/core';
 
 @Component({
   selector: 'app-navigation',
@@ -12,6 +12,13 @@ export class NavigationComponent implements OnChanges {
   // ngOnInit(): void {
   //   console.log('sled towa')
   // }
+
+  ngOnChanges(changes: SimpleChanges) {
+    console.log(changes)
+  }
+
+
+
 
   ActiveNav = ''
   ActiveNavAbout = ''
@@ -67,8 +74,6 @@ export class NavigationComponent implements OnChanges {
 
 
 
-  ngOnChanges() {
 
-  }
 
 }
