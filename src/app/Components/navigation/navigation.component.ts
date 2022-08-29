@@ -9,6 +9,7 @@ export class NavigationComponent implements OnChanges {
 
   constructor() { }
 
+  bankName = ''
   // ngOnInit(): void {
   //   console.log('sled towa')
   // }
@@ -16,6 +17,7 @@ export class NavigationComponent implements OnChanges {
   ngOnChanges(changes: SimpleChanges) {
     console.log(changes)
   }
+
 
 
 
